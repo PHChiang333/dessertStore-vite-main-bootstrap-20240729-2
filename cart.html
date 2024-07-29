@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet use bootstrap 5.3.3 by npm and custom.scss -->
+    <!-- assets includes imgs and scss -->
+    <title>Rocket17th dessert store</title>
+    <!-- google fonts and icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+
+  <script type="module" crossorigin src="/dessertStore-vite-main-bootstrap-20240729-2/assets/main-250af9c2.js"></script>
+  <link rel="stylesheet" href="/dessertStore-vite-main-bootstrap-20240729-2/assets/main-302852c0.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+    <nav class="navbar navbar-expand-md bg-body-tertiary bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="/dessertStore-vite-main-bootstrap-20240729-2/assets/logo-all-dark-c696294e.svg" width="220" height="40" alt class="d-none d-md-inline-block">
+          <img src="/dessertStore-vite-main-bootstrap-20240729-2/assets/logotype-sm-dark-0e15172f.svg" width="114" height="18" alt class="d-inline-block d-md-none">
+        </a>
+        <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">甜點</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">登入</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="navbar-nav ml-19px">
+          <a class="nav-link pr-md-0" href="cart.html"><i class="material-icons">
+              shopping_cart
+            </i></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+        <!-- content -->
+        <!-- https://www.casper.tw/F2E-PK/carts.html -->
+        <section class="container my-md-5">
+            <div class="row carts">
+                <div class="col-md-8">
+                    <h1 class="bg-primary-lighter h4 mb-0 py-4 text-center">
+                        您的購物車
+                    </h1>
+                    <div class="cart-row d-flex flex-column flex-md-row py-3">
+                        <div class="d-flex align-items-center flex-grow-1 mr-md-3">
+                            <div class="my-4 mr-4 flex-grow-1 flex-md-grow-0">
+                                <div class="cart-image"
+                                    style="background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80)">
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-md-center flex-column flex-md-row flex-md-grow-1">
+                                <div class="flex-fill mr-md-4">
+                                    <span class="h5">抹茶馬卡龍</span><br>
+                                    <span>NT$ 450</span>
+                                </div>
+                                <div class="cart-control ml-md-auto mt-3 mt-md-0">
+                                    <div class="input-group carts-input-group">
+                                        <div class="input-group-prepend">
+                                            <button type="button"
+                                                class="btn btn-brand-light text-primary-light material-icons text-base-size">remove</button>
+                                        </div>
+                                        <input type="text" class="form-control" value="2">
+                                        <div class="input-group-append">
+                                            <button type="button"
+                                                class="btn btn-brand-light text-primary-light material-icons text-base-size">add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="price ml-md-auto align-items-center py-3 justify-content-end d-flex flex-md-row-reverse">
+                            <a href="#" class="btn d-none d-md-block"><span
+                                    class="material-icons">delete_outline</span></a>
+                            <span class="h5 mb-0 mr-md-3">NT$ 900</span>
+                        </div>
+                    </div>
+                    <div class="cart-row d-flex flex-column flex-md-row py-3">
+                        <div class="d-flex align-items-center flex-grow-1 mr-md-3">
+                            <div class="my-4 mr-4 flex-grow-1 flex-md-grow-0">
+                                <div class="cart-image"
+                                    style="background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80)">
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-md-center flex-column flex-md-row flex-md-grow-1">
+                                <div class="flex-fill mr-md-4">
+                                    <span class="h5">抹茶馬卡龍</span><br>
+                                    <span>NT$ 450</span>
+                                </div>
+                                <div class="cart-control ml-md-auto mt-3 mt-md-0">
+                                    <div class="input-group carts-input-group">
+                                        <div class="input-group-prepend">
+                                            <button type="button"
+                                                class="btn btn-brand-light text-primary-light material-icons text-base-size">remove</button>
+                                        </div>
+                                        <input type="text" class="form-control" value="2">
+                                        <div class="input-group-append">
+                                            <button type="button"
+                                                class="btn btn-brand-light text-primary-light material-icons text-base-size">add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="price ml-md-auto align-items-center py-3 justify-content-end d-flex flex-md-row-reverse">
+                            <a href="#" class="btn d-none d-md-block"><span
+                                    class="material-icons">delete_outline</span></a>
+                            <span class="h5 mb-0 mr-md-3">NT$ 900</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-md-3 py-3 pt-0 cart-msg-box">
+                        <h2 class="text-center cart-msg-title h4 py-3">訂單摘要</h2>
+                        <hr class="border-white mt-0">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>小計</span>
+                            <span>NT$ 2,700</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>運費</span>
+                            <span>NT$ 300</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="h5">總計</span>
+                            <span class="h5">NT$ 3000</span>
+                        </div>
+                    </div>
+                    <div class="negative-row-margin mx-md-0">
+                        <a href="checkout.html" class="btn btn-accent btn-block btn-lg py-3 text-primary">結帳</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- section-subscription -->
+        <section class="subscription">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div
+                class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start mb-30px mb-md-0">
+                <img class="" src="/dessertStore-vite-main-bootstrap-20240729-2/assets/logo-light-54cbe1bf.svg" alt="logo-light.svg"
+                    style="width: 40px;height: 40px;">
+                <span class="ml-20px text-white fz-24px mb-0 ">訂閱你我的甜蜜郵件</span>
+            </div>
+            <div class="col-md-5 d-flex align-items-center bg-secandary-bg pl-0 pr-0">
+                <label for="subscription" class="material-icons iconSubscription">email</label>
+                <input type="email" class="bg-secandary-bg w-100 border-none">
+                <button class="btn btn-info btn-subscription ms-auto"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANdJREFUSA1jYBgFQyoE7GJcF9jHus4nxdGMxCq2iXFxYGZk3A9Vv+Dg4t2JxOhlJkYRSM2jS/ceyOkrPwS6KADINVDQV1Z4eOneRkL6ibYAaskFUi0hyQJyLCHZAlItIcsCUizBSEXAZPgfZACZACN1MZFpEFZt//8zYDgYQwCrThyCtrGuCUAXgjMe0PCFh5bsTkBXSrYFxBgOsowsC4g1nCwLSDGcZAtINZwkCxwiHBT+s7LeB2nCFaEgOXRAdEZ7cOXBB1A5xPCf4SO21IJu8Ch/8IQAAC8scJnrhcluAAAAAElFTkSuQmCC"
+                        alt="arrow_forward-24px"></button>
+            </div>
+        </div>
+    </div>
+</section>            <!-- footer -->
+            <footer class="footer">
+    <div class="container">
+
+        <div class="row mb-30px">
+            <div class="col-12 col-md-4 pl-0 d-flex  flex-column justify-content-between ">
+                <a href="index.html" class="mb-40px"><img src="/dessertStore-vite-main-bootstrap-20240729-2/assets/logotype-lg-dark-b580da93.svg" alt=""
+                        style="width: 171.22px;height: 26.6px;"></a>
+                <p class="mb-0">07-1234-5678</br>
+                    sweetaste@email.com</br>
+                    800 高雄市新興區幸福路 520 號</p>
+            </div>
+            <div class="d-none d-md-block col-md-1 ms-auto pl-md-0 pr-0">
+                <img src="/dessertStore-vite-main-bootstrap-20240729-2/assets/sm-今天是個吃甜點的好日子-1498178d.svg" alt="" style="width: 59.28px;" class="ms-auto">
+            </div>
+        </div>
+        <div class="row flex-column flex-md-row justify-content-between ">
+            <div class="col-2 d-flex pt-7px pt-md-0 pb-7px pb-md-0 pl-0">
+                <img src="/dessertStore-vite-main-bootstrap-20240729-2/assets/ic-line@-0fd0e738.svg" alt="line@" style="width: 32px; height: 32px;" class="mr-8px">
+                <img src="/dessertStore-vite-main-bootstrap-20240729-2/assets/ic-facebook-00610fe2.svg" alt="fb" style="width: 32px; height: 32px;">
+            </div>
+            <div class="col-md-4 d-flex flex-column-reverse pr-0 pt-16px pt-md-0 pl-0">
+                <p class="mb-0 text-md-end">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>                <!-- vite js -->
+                
+</body>
+
+</html>
