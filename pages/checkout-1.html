@@ -20,22 +20,140 @@
     <!-- header -->
     <%- include('./layout/header'); -%>
 
-    <!-- content -->
+        <!-- content -->
 
-    <main>
+        <section class="checkout-1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="delivery py-30px px-30px bg-primary">
+                            <div class="title d-flex text-secondary-bg-0 justify-content-between mb-30px">
+                                <h2 class="fz-36">運送</h2>
+                                <div class="d-flex align-items-center" style="width: 153px;">
+                                    <div>
+                                      <i class="material-icons">radio_button_checked</i>
+                                    </div>
+                                    <div class="mb-1 flex-grow-1 border border-info" style="height:1px;"></div>
+                                    <div>
+                                      <i class="material-icons text-info">radio_button_unchecked</i>
+                                    </div>
+                                    <div class="mb-1 flex-grow-1 border border-info" style="height:1px;"></div>
+                                    <div class="pr-4">
+                                      <i class="material-icons text-info">radio_button_unchecked</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
 
-    </main>
+                            
+                            <div class="delivery-content row">
+                                <div class="col-6">
+                                    <p class="text-secondary-bg-0 fz-20">姓氏</p>
+                                    <input type="text" id="lastname" placeholder="王" data-listener-added_6e589b59="true" class="input-custom">
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-secondary-bg-0  fz-20">名字</p>
+                                    <input type="text" id="firstname" placeholder="小明" class="input-custom">
+                                </div>
+                                <div class="col-12">
+                                    <p class="text-secondary-bg-0  fz-20">電話</p>
+                                    <input type="text" id="myphone" placeholder="0912-345-678" class="input-custom">
+                                </div>
+                                <div class="col-12">
+                                    <p class="text-secondary-bg-0  fz-20">地址</p>
+                                    <select class="select-custom" id="city" >
+                                        <option selected="">高雄市</option>
+                                        <option value="1">台北市</option>
+
+                                    </select>
+                                    <select class="select-custom " id="inputGroupSelect01">
+                                        <option selected="">新興區</option>
+                                        <option value="1">前鎮區</option>
+                                        <option value="2">苓雅區</option>
+                                        <option value="3">左營區</option>
+                                    </select>
+                                    <input type="text" id="myadress" placeholder="幸福路 520 號" class="input-custom">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bg-info text-center font-weight-bold fz-24">
+                            <a href="checkout-2.html" class="py-3 d-block">下一步</a>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <!-- -----side----- -->
+                    <div class="d-none d-md-block col-md-4 text-secondary-text mb-60px">
+                        <div class="side-cart">
+                            <div class="mb-20px">
+                              <h3 class="bg-secondary-bg-0 d-block py-3 text-center">訂單摘要</h3>
+                              <div class="px-3 d-flex justify-content-between mb-2">
+                                <p>小計</p>
+                                <p>NT$ 2,700</p>
+                              </div>
+                              <div class="px-3 d-flex justify-content-between">
+                                <p>運費</p>
+                                <p>NT$ 300</p>
+                              </div>
+                              <div class="px-3 d-flex justify-content-between fz-20 font-weight-bold pt-3 pb-3">
+                                <p>總計</p>
+                                <p>NT$ 3,000</p>
+                              </div>
+                            </div>
+                            <div class="mb-20px">
+                                <h3 class="bg-secondary-bg-0 d-block py-3 text-center mb-3">購物清單</h3>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                      <div class="bg-cart-item" style="background-image:url(https://bit.ly/2QvsT63); height:100%;"></div>
+                                    </div>
+                                    <div class="col-6 py-3">
+                                      <div>焦糖馬卡龍 (2)</div>
+                                      <div class="text-20 font-weight-bold">NT$ 900</div>
+                                    </div>
+                                  </div>
+                                  <div class="row mb-3">
+                                    <div class="col-6">
+                                      <div class="bg-cart-item" style="background-image:url(https://bit.ly/2QvsT63); height:100%;"></div>
+                                    </div>
+                                    <div class="col-6 py-3">
+                                      <div>焦糖馬卡龍 (2)</div>
+                                      <div class="text-20 font-weight-bold">NT$ 900</div>
+                                    </div>
+                                  </div>
+                                  <div class="row mb-3">
+                                    <div class="col-6">
+                                      <div class="bg-cart-item" style="background-image:url(https://bit.ly/2QvsT63); height:100%;"></div>
+                                    </div>
+                                    <div class="col-6 py-3">
+                                      <div>焦糖馬卡龍 (2)</div>
+                                      <div class="text-20 font-weight-bold">NT$ 900</div>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
 
 
 
 
 
-    <!-- section-subscription -->
-    <%- include('./layout/sectionSubscription'); -%>
-    <!-- footer -->
-    <%- include('./layout/footer'); -%>
-    <!-- vite js -->
-    <script type="module" src="../main.js"></script>
+        <!-- section-subscription -->
+        <%- include('./layout/sectionSubscription'); -%>
+            <!-- footer -->
+            <%- include('./layout/footer'); -%>
+                <!-- vite js -->
+                <script type="module" src="../main.js"></script>
 </body>
 
 </html>

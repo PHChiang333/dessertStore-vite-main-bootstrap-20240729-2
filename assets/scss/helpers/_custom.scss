@@ -1,16 +1,18 @@
-
 .ml-19px {
     margin-left: 19px;
 }
 
 .pr-md-0 {
-    @include media-breakpoint-up(md) {        padding-right: 0 !important; }
+    @include media-breakpoint-up(md) {
+        padding-right: 0 !important;
+    }
 }
 
-.mb-30px{
+.mb-30px {
     margin-bottom: 30px;
 }
-.mb-md-0{
+
+.mb-md-0 {
     @include media-breakpoint-up(md) {
         margin: 0;
     }
@@ -45,75 +47,76 @@
 
 .ml-0 {
     margin-left: 0;
-  }
-  
-  
-  .mr-0 {
+}
+
+
+.mr-0 {
     margin-right: 0;
-  }
-  
-  .px-md-col-1 {
+}
+
+.px-md-col-1 {
     @include media-breakpoint-up(md) {
-      padding-left: $grid-gutter-width+$grid-row-columns;
-      padding-right: $grid-gutter-width+$grid-row-columns;
+        padding-left: $grid-gutter-width+$grid-row-columns;
+        padding-right: $grid-gutter-width+$grid-row-columns;
     }
-  }
-  
-  .py-40px {
+}
+
+.py-40px {
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-  
-  .py-md-63px {
+}
+
+.py-md-63px {
     @include media-breakpoint-up(md) {
-      padding-top: 63px;
-      padding-bottom: 63px;
+        padding-top: 63px;
+        padding-bottom: 63px;
     }
-  }
-  
-  
-  
-  .writing-vertical-lr {
+}
+
+
+
+.writing-vertical-lr {
     writing-mode: vertical-lr;
-  }
+}
 
-  .h-180px {
+.h-180px {
     height: 180px;
-  }
-  
-  .fz-20 {
+}
+
+.fz-20 {
     font-size: 20px;
-  }
-  
-  .fz-md-24 {
+}
+
+.fz-md-24 {
     @include media-breakpoint-up(md) {
-      font-size: 24px;
+        font-size: 24px;
     }
-  }
-  
-  
-  
+}
 
 
 
-  .opacity-half {
+
+
+
+.opacity-half {
     opacity: 0.8;
-  }
-  
+}
 
-  .blur {
-    backdrop-filter: blur(10px);
-  }
-  
-  
-  .mt-md--80px{
+
+.blur {
+    filter: blur(5px);
+    // backdrop-filter: blur(5px);
+}
+
+
+.mt-md--80px {
     @include media-breakpoint-up(md) {
-      margin-top: -80px;
+        margin-top: -80px;
     }
-  }      
+}
 
 
-  .fz-24 {
+.fz-24 {
     font-size: 24px;
 }
 
@@ -252,19 +255,19 @@
     }
 }
 
-.mt-md-10px{
+.mt-md-10px {
     @include media-breakpoint-up(md) {
         margin-top: 10px;
     }
-} 
+}
 
-.mb-md-60px{
+.mb-md-60px {
     @include media-breakpoint-up(md) {
         margin-bottom: 60px;
     }
-} 
+}
 
-.pl-md-0{
+.pl-md-0 {
     @include media-breakpoint-up(md) {
         padding-left: 0;
     }
@@ -273,82 +276,236 @@
 
 
 .py-16px {
-  padding-top: 16px;
-  padding-bottom: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .fz-24 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .px-20px {
-  padding-right: 20px;
-  padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .mb-16px {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .border-none {
-  border: none;
+    border: none;
 }
 
 .px-md-60px {
-  @include media-breakpoint-up(md) {
-      padding-right: 60px;
-      padding-left: 60px;
-  }
+    @include media-breakpoint-up(md) {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
 }
 
 .py-md-40px {
-  @include media-breakpoint-up(md) {
-      padding-top: 40px;
-      padding-bottom: 40px;
-  }
+    @include media-breakpoint-up(md) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .pb-md-25px {
-  @include media-breakpoint-up(md) {
-      padding-bottom: 25px !important;
-  }
+    @include media-breakpoint-up(md) {
+        padding-bottom: 25px !important;
+    }
 }
 
 .pb-md-60px {
-  @include media-breakpoint-up(md) {
-      padding-bottom: 60px;
-  }
+    @include media-breakpoint-up(md) {
+        padding-bottom: 60px;
+    }
 }
 
 .col-md-390px {
-  @include media-breakpoint-up(md) {
-      max-width: 390px;
-  }
+    @include media-breakpoint-up(md) {
+        max-width: 390px;
+    }
 }
 
 .mb-md-36px {
-  @include media-breakpoint-up(md) {
-      margin-bottom: 36px;
-  }
+    @include media-breakpoint-up(md) {
+        margin-bottom: 36px;
+    }
 }
 
 
 .mb-md-16px {
-  @include media-breakpoint-up(md) {
-      margin-bottom: 16px;
-  }
+    @include media-breakpoint-up(md) {
+        margin-bottom: 16px;
+    }
 }
 
 .py-md-15px {
-  @include media-breakpoint-up(md) {
-      padding-top: 15px;
-      padding-bottom: 15px;
-  }
+    @include media-breakpoint-up(md) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
-.py-md-8px{
-  @include media-breakpoint-up(md) {
-      padding-top: 8px;
-      padding-bottom: 8px;
-  }
+.py-md-8px {
+    @include media-breakpoint-up(md) {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+.pl-16px {
+    padding-left: 16px;
+}
+
+.py-8px {
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+}
+
+.mx-30px {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.btn-border-secondary-bg-0 {
+    border: 1px solid $secondary-bg-0;
+}
+
+.bg-md-primary {
+    @include media-breakpoint-up(md) {
+        background-color: $primary;
+        color: $secondary-bg-0;
+    }
+}
+
+.border-bottom-white {
+    border-bottom: 1px solid $white ;
+}
+
+.py-md-20px {
+    @include media-breakpoint-up(md) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+}
+
+.pt-md-20px {
+    @include media-breakpoint-up(md) {
+        padding-top: 20px;
+
+    }
+}
+
+.pb-md-20px {
+    @include media-breakpoint-up(md) {
+        padding-bottom: 20px;
+
+    }
+}
+
+.mb-md-0 {
+    @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+    }
+}
+
+.col-md-110px {
+    @include media-breakpoint-up(md) {
+        width: 110px;
+    }
+}
+
+.col-md-M150px {
+    @include media-breakpoint-up(md) {
+        max-width: 150px;
+    }
+}
+
+.col-md-185px {
+    @include media-breakpoint-up(md) {
+        width: 185px;
+    }
+}
+
+.pl-md-40px {
+    @include media-breakpoint-up(md) {
+        padding-left: 40px;
+    }
+}
+
+.ml-md-40px {
+    @include media-breakpoint-up(md) {
+        margin-left: 40px;
+    }
+}
+
+.mr-md--12px {
+    @include media-breakpoint-up(md) {
+        margin-right: -12px;
+    }
+}
+
+
+.pl-g-1 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.mb-60px {
+    margin-bottom: 60px;
+}
+
+.py-30px {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.px-30px {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.fz-36 {
+    font-size: 36px;
+}
+
+.border-radius-0-forced {
+    border-radius: 0% !important;
+}
+
+.borderline-secondary-bg-0 {
+    border: 1px solid $secondary-bg-0;
+}
+
+.pt-30px {
+    padding-top: 30px;
+}
+
+.pb-30px {
+    padding-bottom: 30px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+
+.writing-md-vertical-rl{
+    @include media-breakpoint-up(md) {
+        writing-mode: vertical-lr;
+    }
+}
+
+.py-md-80px{
+    @include media-breakpoint-up(md) {
+        padding-top:80px;
+        padding-bottom: 80px;
+    }
 }

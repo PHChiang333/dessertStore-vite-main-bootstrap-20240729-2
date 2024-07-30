@@ -1,0 +1,61 @@
+.cart-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.cart-bg-1 {
+    background-image: url(https://bit.ly/2QvsT63);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 106px;
+
+    @include media-breakpoint-up(md) {
+        height: 110px;
+    }
+}
+
+.cart-bg-2 {
+    background-image: url(https://bit.ly/2zBDAxX);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 106px;
+
+    @include media-breakpoint-up(md) {
+        height: 110px;
+    }
+}
+
+.cart-bg-3 {
+    background-image: url(https://bit.ly/2zKOP7w);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 106px;
+
+    @include media-breakpoint-up(md) {
+        height: 110px;
+    }
+}
+
+.price {
+    border-top: 1px solid $secondary-bg-0 ;
+    border-bottom: 1px solid $secondary-bg-0 ;
+}
+
+.price-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart-icon {
+    font-size: 16px;
+}
+
+.cart .bg-md-primary{
+    background-color: $primary;
+}
+
